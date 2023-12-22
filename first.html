@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<input type="text" id="demo">
+<input type="text" id="demo1">
+<button onclick="Check()">Check</button>
+
+
+
+<script>
+function Check()
+{
+  var a,b
+  a=Number(document.getElementById("demo").value)
+  b= Number(document.getElementById("demo1").value)
+  if(a>b)
+  {
+    alert("greater")
+  }
+  else if(a<b){
+    alert("lesser")
+  }
+  else if(a==b)
+  {
+    alert("equal")
+  }
+  else
+  {
+    alert("default")
+  }
+
+
+}
+
+
+</script>
+ 
+</body>
+
+</html>
